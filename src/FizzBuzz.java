@@ -5,6 +5,10 @@ class FizzBuzz {
 
     public static void main(String[] args) {
 
+        extracted();
+    }
+
+    private static void extracted() {
         for (int i = 1; i < 100; i++) {
 
             // Find out which numbers divide i.
